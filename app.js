@@ -55,13 +55,13 @@ function updateTotal() {
 
 
 }
-// document.getElementById('apply-btn').addEventListener('click', function () {
+document.getElementById('apply-btn').addEventListener('click', function () {
 
-//     const promoCode = document.getElementById('promo-Input').value;
-//     if (promoCode == 'stevekaku') {
-//         const currentPriceText = document.getElementById('total-price').innerText;
-//         const currentPrice = parseInt(currentPriceText);
-//         const discountPrice = currentPrice - (20 / 100);
+    const promoCode = document.getElementById('promo-Input').value;
+    if (promoCode == 'stevekaku') {
+        const currentPriceText = document.getElementById('total-price').innerText;
+        const currentPrice = parseInt(currentPriceText);
+        const discountPrice = currentPrice - (20 / 100);
 
-//     }
-// })
+    }
+})
