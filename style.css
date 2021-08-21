@@ -1,0 +1,10 @@
+/* font family */
+
+body{
+font-family: 'Poppins', sans-serif;
+
+}
+.picture img{
+    height: 50px;
+    width: 50px;
+}

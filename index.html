@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap css cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <section>
+        <div class="row d-flex align-items-center border p-5 rounded">
+            <div class="col-lg-5">
+                <img class="w-100 d-block" src="./images/picture1.jpg" alt="">
+
+            </div>
+
+            <div class="col-lg-7">
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+                <p>
+                    Apple M1 chip with 8-core with 4 performances cores and 4 efficiency cores ,7-cores CPU, and 16-core
+                    Neural Engine 8GB unfind memory 256GB SSD storage Two Thunderbolt.USB4 ports Magic Mouse Keyborad US
+                    English
+                </p>
+                <!-- Memory -->
+                <div>
+                    <h1>
+                        Memory
+                    </h1>
+                    <div>
+                        <button id="select-eight" type="submit" class="btn btn-primary">
+                            8GB undifind Memory
+
+                        </button>
+                        <button id="select-sixteen" type="submit" class="btn btn-primary">
+                            16GB undifind Memory
+
+                        </button>
+                    </div>
+                    <!-- Storage  -->
+                    <div class="mt-5">
+                        <h1>
+                            Storage
+                        </h1>
+                    </div>
+                    <div>
+                        <button id="ssd-first" type="submit" class="btn btn-warning">
+                            256GB SSD Storage
+
+                        </button>
+                        <button id="ssd-second" type="submit" class="btn btn-warning">
+                            512GB SSD Storage
+
+                        </button>
+                        <button id="ssd-third" type="submit" class="btn btn-warning">
+                            1TB SSD Storage
+
+                        </button>
+                    </div>
+                    <!-- Delivary Option -->
+                    <div class="mt-5">
+                        <h1>
+                            Choose Your Delivary Option
+                        </h1>
+                        <div>
+
+                            <button id="delivary-one" type="submit" class="btn btn-info">
+                                Friday,August 25 Free prime Delivary
+                            </button>
+                            <button id="delivary-two" type="submit" class="btn btn-info">
+                                Friday,August 21 Delivary charge $20
+                            </button>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Price -->
+
+                <section class="mt-5">
+                    <!-- Best Price -->
+
+                    <div>
+                        <div class="col-lg-4 d-flex align-items-center">
+                            <p class="mx-5">
+                                Best Price
+                            </p>
+                            <button id="best-price" type="submit" class="col-lg-3">$1299
+
+                            </button>
+                        </div>
+                        <!-- Extra Memory Cost -->
+                        <div class="d-flex col-lg-4  align-items-center">
+                            <p class="mx-5">
+                                Extra Memory Cost
+                            </p>
+                            <button id="memoryCost" type="submit" class="col-lg-3">$0
+
+                            </button>
+                        </div>
+                        <!-- Extra Storage Cost -->
+                        <div class="col-lg-4  d-flex align-items-center">
+                            <p class="mx-5">
+                                Extra Storage Cost
+
+                            </p>
+                            <button id="storageCost" type="submit" class="col-lg-3">$0
+
+                            </button>
+                        </div>
+                        <!-- Delivary cost -->
+                        <div class="d-flex col-lg-4  align-items-center">
+                            <p class="mx-5">
+                                delivary Charge
+                            </p>
+                            <button id="delivaryCost" type="submit" class="col-lg-3">$0
+
+                            </button>
+                        </div>
+                        <hr>
+                        <div class="d-flex col-lg-4 align-items-center">
+                            <p class="mx-5">
+                                Total Price
+                            </p>
+                            <button id="total-price" type="submit" class="col-lg-3">$1299
+
+                            </button>
+                        </div>
+
+                    </div>
+                    <div>
+                        <!-- Promo Code -->
+                        <h5>Add Promo Code </h5>
+                        <input id="promoCode" type="text">
+                        <button id="apply-btn" type="submit" class="btn btn-danger">
+                            Apply
+
+                        </button>
+                    </div>
+                </section>
+                <!-- Total -->
+                <h1 class="mt-5">
+                    Total :$ <span id="total">1299</span>
+                </h1>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- sricpt -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="app.js">
+
+    </script>
+
+</body>
+
+</html>
